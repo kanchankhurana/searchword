@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Urban Dictionary - Word Search</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/styles/styles.css">
+</head>
+<body>
+
+	<!-- Header -->
+	<div class="header">
+
+		<!-- Logo -->
+		<div class="header__brand">
+			<h2 class="logo flt-left">Dictionary</h2>
+			<button class="btn-bookmark flt-right"><i class="material-icons">bookmark_border</i></button>
+		</div>
+		
+		<!-- Search -->
+		<div class="header__search">
+			<input type="search" id="inputVal" placeholder="Search for a word.." autofocus/>
+			<span>
+				<button id="searchBtn"><i class="material-icons">search</i></button>
+			</span>
+		</div>
+	</div>
+
+	<!-- Result -->
+	<div class="wrapper">
+		<div class="result">
+			<p class="keyword flt-left"></p>
+			<button id="bookmarkBtn" class="flt-right" style="display: none;">
+				Bookmark
+			</button>
+			<div class="result-list"></div>
+		</div>
+	</div>
+
+	<!-- Bookmark Sidebar right-->
+	<div class="bookmark">
+		<div class="bookmark__heading">Bookmarks</div>
+		<ul class="bookmark__list">
+		</ul>
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="/scripts/custom.js"></script>
+</body>
+</html>

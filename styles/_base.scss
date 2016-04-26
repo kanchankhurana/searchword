@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-size: 62.5%; //1em = 10px
+	font-family: "Montserrat", helvetica, sans-serif;
+	color: #333;
+	line-height: 1.5;
+	margin:0;
+	padding: 0;
+	background-color: #f7f7f7;
+	padding-top: 108px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 30px;
+	margin-top:0;
+	line-height: 1;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.8em;
+	margin-bottom: 1.8em;
+	color: #666;
+}

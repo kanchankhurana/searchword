@@ -1,0 +1,18 @@
+.card{
+	background-color: #fff;
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.result {
+	margin-top: 36px;
+
+	&-list {
+		clear: both;
+	}
+}
+.keyword{
+	text-transform: capitalize;
+}
